@@ -1,0 +1,16 @@
+{
+    "name": "@oathompsonjones/ts-config",
+    "version": "0.0.1",
+    "description": "Provides my TypeScript configuration.",
+    "main": "tsconfig.json",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oathompsonjones/ts-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/oathompsonjones/ts-config/issues"
+    },
+    "homepage": "https://github.com/oathompsonjones/ts-config#readme",
+    "author": "oathompsonjones",
+    "license": "ISC"
+}
