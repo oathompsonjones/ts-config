@@ -1,29 +1,47 @@
 {
     "compilerOptions": {
-        // Project Options
-        "module": "ESNext",
-        "removeComments": true,
-        "target": "ESNext",
-        // Strict Checks
-        "alwaysStrict": true,
-        "noImplicitAny": true,
-        "noImplicitThis": true,
-        "strict": true,
-        "strictBindCallApply": true,
-        "strictFunctionTypes": true,
-        "strictNullChecks": true,
-        "strictPropertyInitialization": true,
-        // Module Resolution
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        // Linter Checks
+        // Type Checking
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
         "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
         "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": false,
+        "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        // Advanced
+        "strict": true, // Automatically activates all strict checks.
+        // Modules
+        "allowUmdGlobalAccess": true,
+        "module": "ESNext",
+        "moduleResolution": "nodenext",
+        "resolveJsonModule": true,
+        // Emit
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "newLine": "LF",
+        // JavaScript Support
+        "allowJs": true,
+        "checkJs": true,
+        // Interop Constraints
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
-        "resolveJsonModule": false,
-        "useDefineForClassFields": true
-    }
+        "isolatedModules": true,
+        // Language and Environment
+        "jsx": "react",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "target": "ESNext",
+        // Output Formatting
+        "noErrorTruncation": true
+    },
 }
