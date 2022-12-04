@@ -41,5 +41,5 @@
         "target": "ESNext",
         // Output Formatting
         "noErrorTruncation": true
-    },
+    }
 }
