@@ -16,8 +16,8 @@
         "strict": true, // Automatically activates all strict checks.
         // Modules
         "allowUmdGlobalAccess": true,
-        "module": "ESNext",
-        "moduleResolution": "nodenext",
+        "module": "CommonJS",
+        "moduleResolution": "node",
         "resolveJsonModule": true,
         // Emit
         "downlevelIteration": true,
