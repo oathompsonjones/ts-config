@@ -4,7 +4,7 @@
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
         "exactOptionalPropertyTypes": true,
-        "noFallthroughCasesInSwitch": true,
+        "noFallthroughCasesInSwitch": false,
         "noImplicitAny": true,
         "noImplicitOverride": true,
         "noImplicitReturns": true,
@@ -33,10 +33,11 @@
         "forceConsistentCasingInFileNames": true,
         "isolatedModules": true,
         // Language and Environment
-        "jsx": "react",
+        "jsx": "react-jsx",
         "lib": [
             "ESNext",
-            "DOM"
+            "DOM",
+            "DOM.Iterable"
         ],
         "target": "ESNext",
         // Output Formatting
