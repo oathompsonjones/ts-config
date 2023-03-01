@@ -1,6 +1,6 @@
 {
     "name": "@oathompsonjones/ts-config",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Provides my TypeScript configuration.",
     "main": "tsconfig.json",
     "repository": {
@@ -13,7 +13,7 @@
     "homepage": "https://github.com/oathompsonjones/ts-config#readme",
     "author": "oathompsonjones",
     "license": "ISC",
-    "devDependencies": {
+    "dependencies": {
         "@types/node": "^18.14.2",
         "typescript": "^4.9.5"
     }
