@@ -1,8 +1,37 @@
 {
     "compilerOptions": {
-        // Type Checking
+        // * Modules
+        "allowArbitraryExtensions": false,
+        "allowImportingTsExtensions": false,
+        "baseUrl": "node_modules",
+        "customConditions": [],
+        "allowUmdGlobalAccess": true,
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
+        "moduleSuffixes": [],
+        "noResolve": false,
+        "paths": {},
+        "resolveJsonModule": true,
+        "resolvePackageJsonExports": true,
+        "resolvePackageJsonImports": true,
+        "rootDirs": [],
+        "typeRoots": [],
+        "types": [],
+        // * JavaScript Support
+        "allowJs": true,
+        "checkJs": true,
+        "maxNodeModuleJsDepth": 0,
+        // * Interop Constraints
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "preserveSymlinks": false,
+        "verbatimModuleSyntax": false,
+        // * Type Checking
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
+        "alwaysStrict": true,
         "exactOptionalPropertyTypes": true,
         "noFallthroughCasesInSwitch": false,
         "noImplicitAny": true,
@@ -13,34 +42,76 @@
         "noUncheckedIndexedAccess": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "strict": true, // Automatically activates all strict checks.
-        // Modules
-        "allowUmdGlobalAccess": true,
-        "module": "CommonJS",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        // Emit
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": true,
+        // * Watch and Build Modes
+        "assumeChangesOnlyAffectDirectDependencies": false,
+        // * Backwards Compatability
+        "keyofStringsOnly": false,
+        "noImplicitUseStrict": false,
+        "noStrictGenericChecks": false,
+        "suppressExcessPropertyErrors": false,
+        "suppressImplicitAnyIndexErrors": false,
+        // * Projects
+        "composite": false,
+        "disableReferencedProjectLoad": false,
+        "disableSolutionSearching": false,
+        "disableSourceOfProjectReferenceRedirect": false,
+        "incremental": false,
+        // * Emit
+        "declaration": true,
+        "declarationMap": true,
         "downlevelIteration": true,
+        "emitBOM": true,
+        "emitDeclarationOnly": false,
+        "importHelpers": false,
+        "importsNotUsedAsValues": "remove",
         "inlineSourceMap": true,
         "inlineSources": true,
         "newLine": "LF",
-        // JavaScript Support
-        "allowJs": true,
-        "checkJs": true,
-        // Interop Constraints
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "isolatedModules": true,
-        // Language and Environment
+        "noEmit": false,
+        "noEmitHelpers": false,
+        "noEmitOnError": false,
+        "preserveConstEnums": true,
+        "preserveValueImports": false,
+        "removeComments": true,
+        "sourceMap": false,
+        "stripInternal": true,
+        // * Compiler Diagnostics
+        "diagnostics": false,
+        "explainFiles": false,
+        "extendedDiagnostics": false,
+        "generateCpuProfile": "profile.cpuprofile",
+        "listEmittedFiles": false,
+        "listFiles": false,
+        "traceResolution": false,
+        // * Editor Support
+        "disableSizeLimit": true,
+        "plugins": [],
+        // * Language and Environment
+        "emitDecoratorMetadata": false,
+        "experimentalDecorators": false,
         "jsx": "react-jsx",
+        "jsxImportSource": "react",
         "lib": [
             "ESNext",
             "DOM",
             "DOM.Iterable"
         ],
+        "moduleDetection": "auto",
+        "noLib": false,
         "target": "ESNext",
-        // Output Formatting
-        "noErrorTruncation": true
+        "useDefineForClassFields": true,
+        // * Output Formatting
+        "noErrorTruncation": true,
+        "preserveWatchOutput": false,
+        "pretty": true,
+        // * Completeness
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": false
     }
 }
