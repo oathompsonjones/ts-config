@@ -1,6 +1,6 @@
 {
     "name": "@oathompsonjones/ts-config",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "description": "Provides my TypeScript configuration.",
     "main": "tsconfig.json",
     "repository": {
