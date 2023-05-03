@@ -9,7 +9,7 @@
         "noResolve": false,
         "resolveJsonModule": true,
         "resolvePackageJsonExports": true,
-        "resolvePackageJsonImports": true,
+        "resolvePackageJsonImports": false,
         // * JavaScript Support
         "allowJs": true,
         "checkJs": true,
