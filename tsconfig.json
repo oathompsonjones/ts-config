@@ -56,8 +56,8 @@
         "disableSourceOfProjectReferenceRedirect": false,
         "incremental": false,
         // * Emit
-        "declaration": true,
-        "declarationMap": true,
+        "declaration": false,
+        "declarationMap": false,
         "downlevelIteration": true,
         "emitBOM": true,
         "emitDeclarationOnly": false,
