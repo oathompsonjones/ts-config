@@ -8,7 +8,7 @@
         "moduleResolution": "Node",
         "noResolve": false,
         "resolveJsonModule": true,
-        "resolvePackageJsonExports": true,
+        "resolvePackageJsonExports": false,
         "resolvePackageJsonImports": false,
         // * JavaScript Support
         "allowJs": true,
