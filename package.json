@@ -1,6 +1,6 @@
 {
     "name": "@oathompsonjones/ts-config",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "description": "Provides my TypeScript configuration.",
     "main": "tsconfig.json",
     "repository": {
@@ -14,7 +14,7 @@
     "author": "oathompsonjones",
     "license": "ISC",
     "devDependencies": {
-        "@types/node": "^18.15.11",
-        "typescript": "^5.0.3"
+        "@types/node": "^20.1.4",
+        "typescript": "^5.0.4"
     }
 }
