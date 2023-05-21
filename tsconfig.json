@@ -71,7 +71,7 @@
         "noEmitOnError": false,
         "preserveConstEnums": true,
         "preserveValueImports": false,
-        "removeComments": true,
+        "removeComments": false,
         "sourceMap": false,
         "stripInternal": true,
         // * Compiler Diagnostics
