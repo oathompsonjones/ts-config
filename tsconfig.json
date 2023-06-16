@@ -106,5 +106,8 @@
         // * Completeness
         "skipDefaultLibCheck": true,
         "skipLibCheck": false
-    }
+    },
+    "include": [
+        "**/*.ts",
+    ]
 }
