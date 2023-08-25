@@ -4,7 +4,7 @@
         "allowArbitraryExtensions": false,
         "allowImportingTsExtensions": false,
         "allowUmdGlobalAccess": true,
-        "module": "ESNext",
+        "module": "NodeNext",
         "moduleResolution": "NodeNext",
         "noResolve": false,
         "resolveJsonModule": true,
