@@ -1,4 +1,4 @@
-# @oathompsonjones/eslint-config
+# @oathompsonjones/ts-config
 
 This package provides my TypeScript configurations.
 
