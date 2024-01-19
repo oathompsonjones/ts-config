@@ -18,7 +18,7 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
-        "isolatedModules": false,
+        "isolatedModules": true,
         "preserveSymlinks": false,
         "verbatimModuleSyntax": false,
         // * Type Checking
@@ -69,7 +69,7 @@
         "noEmit": false,
         "noEmitHelpers": false,
         "noEmitOnError": false,
-        "preserveConstEnums": true,
+        "preserveConstEnums": false,
         "preserveValueImports": false,
         "removeComments": false,
         "sourceMap": false,
