@@ -1,5 +1,8 @@
 {
     "compilerOptions": {
+        // * Paths
+        "outDir": "${configDir}/build",
+        "rootDir": "${configDir}/src",
         // * Modules
         "allowArbitraryExtensions": false,
         "allowImportingTsExtensions": false,
