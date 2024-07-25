@@ -109,5 +109,8 @@
         // * Completeness
         "skipDefaultLibCheck": true,
         "skipLibCheck": true
-    }
+    },
+    "include": [
+        "${configDir}/src"
+    ],
 }
