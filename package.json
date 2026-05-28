@@ -1,8 +1,11 @@
 {
     "name": "@oathompsonjones/ts-config",
-    "version": "0.0.35",
+    "version": "0.1.0",
     "description": "Provides my TypeScript configuration.",
     "main": "tsconfig.json",
+    "scripts": {
+        "test": "tsc -p tests/tsconfig.json"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/oathompsonjones/ts-config.git"
@@ -12,5 +15,9 @@
     },
     "homepage": "https://github.com/oathompsonjones/ts-config#readme",
     "author": "oathompsonjones",
-    "license": "ISC"
+    "license": "ISC",
+    "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017",
+    "peerDependencies": {
+        "typescript": "^6.0.3"
+    }
 }

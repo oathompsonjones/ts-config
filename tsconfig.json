@@ -61,7 +61,6 @@
         // * Emit
         "declaration": false,
         "declarationMap": false,
-        "downlevelIteration": true,
         "emitBOM": true,
         "emitDeclarationOnly": false,
         "importHelpers": false,
