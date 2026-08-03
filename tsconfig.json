@@ -46,12 +46,6 @@
         "useUnknownInCatchVariables": true,
         // * Watch and Build Modes
         "assumeChangesOnlyAffectDirectDependencies": false,
-        // * Backwards Compatability
-        "keyofStringsOnly": false,
-        "noImplicitUseStrict": false,
-        "noStrictGenericChecks": false,
-        "suppressExcessPropertyErrors": false,
-        "suppressImplicitAnyIndexErrors": false,
         // * Projects
         "composite": false,
         "disableReferencedProjectLoad": false,
@@ -64,7 +58,6 @@
         "emitBOM": true,
         "emitDeclarationOnly": false,
         "importHelpers": false,
-        "importsNotUsedAsValues": "remove",
         "inlineSourceMap": true,
         "inlineSources": true,
         "newLine": "LF",
@@ -72,7 +65,6 @@
         "noEmitHelpers": false,
         "noEmitOnError": false,
         "preserveConstEnums": false,
-        "preserveValueImports": false,
         "removeComments": false,
         "sourceMap": false,
         "stripInternal": true,
